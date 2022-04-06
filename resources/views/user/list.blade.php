@@ -21,7 +21,7 @@
         @foreach ($list_book as $book)
         <div class="group relative" onClick="parent.location='{{url('/book/'.$book->id)}}' ">
             <div class="w-full min-h-80 bg-gray-200 rounded-md overflow-hidden group-hover:opacity-75 ">
-              <img src="img/<?php echo $book->path ?>"  class="object-center object-cover" >
+              <img src="img/<?php echo $book->path ?>"  class="object-contain h-full w-full" >
             </div>
             <div class="mt-4 flex justify-between">
               <div>
