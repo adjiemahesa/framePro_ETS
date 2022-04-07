@@ -26,6 +26,7 @@
                     <div class="hidden sm:block sm:ml-6">
                         <div class="flex space-x-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+
                             <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>    
 
                             <a href="{{ route('login') }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Book</a>
@@ -49,7 +50,7 @@
         </div>
     </nav>
     {{-- Content Here --}}
-    <main>
+    <main class="max-w-7xl mx-auto min-h-screen">
         @yield('content')
     </main>
     <footer class="bg-white">

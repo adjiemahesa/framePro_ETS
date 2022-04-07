@@ -42,7 +42,7 @@ Route::get('/review-book/{id}', 'ReviewController@view');
 Route::get('/search-book', 'ReviewController@show');
 Route::get('/home', 'BookController@index')->name('home');
 Route::post('/upload-book', 'BookController@store')->name('book.store');
-Route::post('/update-book', 'BookController@update')->name('book.update');
+Route::post('/update-book/{id}', 'BookController@update')->name('book.update');
 Route::get('/create-book', 'BookController@create')->name('book.create');
 Route::get('/deletebook/{id}', 'BookController@destroy');
 Route::get('/editbook/{id}', 'BookController@edit');
