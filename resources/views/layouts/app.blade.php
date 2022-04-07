@@ -43,7 +43,7 @@
         </div>
     </nav>
     {{-- Content Here --}}
-    <main>
+    <main class="max-w-7xl mx-auto min-h-screen">
         @yield('content')
     </main>
     <footer class="bg-white">
