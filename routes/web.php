@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/company', function () {
+    return view('company');
+});
+
 Auth::routes();
 
 Route::post('/login', 'Auth\LoginController@login')->middleware('checkrole');
