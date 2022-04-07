@@ -4,29 +4,24 @@
 
 <body>
   <div class="bg-white">
-    <div class="relative overflow-hidden">
-
-      <div class="relative pt-6 pb-16 sm:pb-24">
-        <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
-          <div class="text-center">
-            <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <span class="block">Breview</span>
-              <span class="block text-green-700 text-3xl">your book review heaven</span>
-            </h1>
-            <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">We
-              provide a way to store book list in a digital library so you don't have to think hard.</p>
-          </div>
+    <main class="lg:relative">
+      <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+        <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
+          <h1
+            class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+            <span class="block xl:inline">Breview</span>
+            <span class="block text-green-700 xl:inline">your book review heaven</span>
+          </h1>
+          <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">We
+            provide a way to store book list in a digital library so you don't have to think hard.</p>
         </div>
       </div>
-
-      <div class="relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6">
-          <img class="relative rounded-lg shadow-lg"
-            src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1890&q=80"
-            alt="App screenshot">
-        </div>
+      <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+        <img class="absolute inset-0 w-full h-full object-cover"
+          src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80"
+          alt="">
       </div>
-    </div>
+    </main>
 
     <div class="relative pt-6 pb-14 sm:pb-24">
       <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
@@ -34,7 +29,9 @@
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             <span class="block text-green-700 text-3xl">Deciding what to read?</span>
           </h1>
-          <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">You’re in the right place. Tell us what titles or genres you’ve enjoyed in the past, and we’ll give you surprisingly insightful recommendations.</p>
+          <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">You’re in
+            the right place. Tell us what titles or genres you’ve enjoyed in the past, and we’ll give you surprisingly
+            insightful recommendations.</p>
         </div>
       </div>
     </div>
