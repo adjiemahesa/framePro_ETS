@@ -12,9 +12,6 @@
             Book List
           </span>
         </h1>
-        <p class="mt-8 text-xl text-gray-500 leading-8">
-        “Libraries were full of ideas – perhaps the most dangerous and powerful of all weapons.” -Sarah J. Maas 
-        </p>
       </div>
     </div>
     <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
