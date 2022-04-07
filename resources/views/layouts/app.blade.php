@@ -45,7 +45,7 @@
         </div>
     </nav>
     {{-- Content Here --}}
-    <main class="max-w-7xl mx-auto px-8 border border-l-gray-100 border-r-gray-100 shadow-md min-h-screen">
+    <main>
         @yield('content')
     </main>
 </body>
