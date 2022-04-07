@@ -1,4 +1,4 @@
-@extends('layouts.navbar')
+@extends('layouts.adminnav')
 
 @section('content')
 <div class="relative py-16 bg-white overflow-hidden">

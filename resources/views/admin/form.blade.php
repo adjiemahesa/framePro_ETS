@@ -1,4 +1,4 @@
-@extends('layouts.navbar')
+@extends('layouts.adminnav')
 
 @section('content')
 <div class="min-h-full flex flex-col justify-center py-12 sm:px-6 lg:px-8">
