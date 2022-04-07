@@ -10,6 +10,7 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -19,7 +20,7 @@
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                     <div class="flex-shrink-0 flex items-center">
                             <a href="/" class="text-white px-3 py-2 rounded-md text-sm font-medium">
-                                Startup
+                                <i class="fa-solid fa-book"></i>
                             </a>
                     </div>
                     <div class="hidden sm:block sm:ml-6">
