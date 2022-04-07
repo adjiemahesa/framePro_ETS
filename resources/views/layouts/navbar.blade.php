@@ -28,6 +28,8 @@
                             <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
 
                             <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Book</a>
+
+                            <a href="/company" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About us</a>
                         </div>
                     </div>
                 </div>
@@ -45,7 +47,7 @@
         </div>
     </nav>
     {{-- Content Here --}}
-    <main class="max-w-7xl mx-auto px-8 border border-l-gray-100 border-r-gray-100 shadow-md min-h-screen">
+    <main class="max-w-7xl mx-auto px-8 border border-l-gray-100 border-r-gray-100 min-h-screen">
         @yield('content')
     </main>
 </body>

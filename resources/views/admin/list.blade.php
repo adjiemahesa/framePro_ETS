@@ -4,20 +4,17 @@
 <div class="relative py-16 bg-white overflow-hidden">
     <div class="relative">
       <div class="text-lg max-w-prose mx-auto">
-        <form action="{{route('book.create')}}" method="get">
-            @csrf
-            <div class="w-full flex justify-center align-middle mb-8">
-                <button type="submit" class="text-center p-4 border border-gray-600">Add Book Here</button>
-            </div>
-        </form>
         <h1>
           <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Book List
           </span>
         </h1>
-        <p class="mt-8 text-xl text-gray-500 leading-8">
-        “Libraries were full of ideas – perhaps the most dangerous and powerful of all weapons.” -Sarah J. Maas 
-        </p>
+        <form action="{{route('book.create')}}" method="get">
+          @csrf
+          <div class="w-full flex justify-center align-middle mb-8">
+              <button type="submit" class="text-center p-4 border border-gray-600">Add Book Here</button>
+          </div>
+      </form>
       </div>
     </div>
     <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">

@@ -14,6 +14,11 @@
           </h1>
           <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">We
             provide a way to store book list in a digital library so you don't have to think hard.</p>
+            <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+              <div class="rounded-md shadow">
+                <a href="{{url('search-book')}}" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white text-green-700 hover:text-green-900 md:py-4 md:text-lg md:px-10"> Search A Book </a>
+              </div>
+            </div>
         </div>
       </div>
       <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
