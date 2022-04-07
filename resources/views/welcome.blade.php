@@ -3,16 +3,15 @@
 @section('content')
 
 <body>
-  <div class="bg-gray-50">
+  <div class="bg-white">
     <div class="relative overflow-hidden">
 
       <div class="relative pt-6 pb-16 sm:pb-24">
-
         <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
           <div class="text-center">
             <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <span class="block">Breview</span>
-              <span class="block text-indigo-600 text-3xl">your book review heaven</span>
+              <span class="block text-green-700 text-3xl">your book review heaven</span>
             </h1>
             <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">We
               provide a way to store book list in a digital library so you don't have to think hard.</p>
@@ -29,8 +28,19 @@
       </div>
     </div>
 
+    <div class="relative pt-6 pb-14 sm:pb-24">
+      <div class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6">
+        <div class="text-center">
+          <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+            <span class="block text-green-700 text-3xl">Deciding what to read?</span>
+          </h1>
+          <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">You’re in the right place. Tell us what titles or genres you’ve enjoyed in the past, and we’ll give you surprisingly insightful recommendations.</p>
+        </div>
+      </div>
+    </div>
+
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <section class="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
+    <section class="py-12 bg-white overflow-hidden md:py-20 lg:py-24">
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <svg
           class="absolute top-full right-full transform translate-x-1/3 -translate-y-1/4 lg:translate-x-1/2 xl:-translate-y-1/2"
@@ -61,7 +71,7 @@
                 <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
                   <div class="text-base font-medium text-gray-900">Sarah J. Maas</div>
 
-                  <svg class="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
+                  <svg class="hidden md:block mx-1 h-5 w-5 text-green-700" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M11 0h3L9 20H6l5-20z" />
                   </svg>
 
