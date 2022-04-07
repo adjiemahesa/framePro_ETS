@@ -19,30 +19,24 @@
             <div class="relative flex items-center justify-between h-16">
                 <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                     <div class="flex-shrink-0 flex items-center">
-                            <a href="/" class="text-white px-3 py-2 rounded-md text-sm font-medium">
-                                <i class="fa-solid fa-book"></i>
-                            </a>
+                        <a href="/admin" class="text-white px-3 py-2 rounded-md text-sm font-medium">
+                            <i class="fa-solid fa-book"></i>
+                        </a>
                     </div>
                     <div class="hidden sm:block sm:ml-6">
                         <div class="flex space-x-4">
-                        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-
-                            <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>    
-
-                            <a href="{{ route('login') }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Book</a>
-
-                            <a href="/company" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About us</a>
-
+                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                                <a href="/admin" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">List</a>  
                         </div>
                     </div>
                 </div>
                 <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                     @guest
                     <button class="ml-4 bg-green-700 py-1 px-3 rounded-sm text-gray-300 hover:text-gray-100 hover:bg-green-600"> 
-                        <a href="{{ route('login') }}">{{ __('Login') }}</a>
-                    </button>
-                    <button class="ml-4 bg-green-700 py-1 px-3 rounded-sm text-gray-300 hover:text-gray-100 hover:bg-green-600"> 
-                        <a href="{{ route('register') }}">{{ __('Register') }}</a>
+                        <a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
                     </button>
                     @endguest
                 </div>
@@ -50,7 +44,7 @@
         </div>
     </nav>
     {{-- Content Here --}}
-    <main class="max-w-7xl mx-auto min-h-screen">
+    <main class="max-w-7xl mx-auto px-8 border border-l-gray-100 border-r-gray-100 shadow-md min-h-screen">
         @yield('content')
     </main>
     <footer class="bg-white">

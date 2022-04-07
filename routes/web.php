@@ -19,6 +19,14 @@ Route::get('/company', function () {
     return view('company');
 });
 
+Route::get('/in/company', function () {
+    return view('user.company');
+});
+
+Route::get('/in/home', function () {
+    return view('user.home');
+});
+
 Auth::routes();
 
 Route::post('/login', 'Auth\LoginController@login')->middleware('checkrole');
